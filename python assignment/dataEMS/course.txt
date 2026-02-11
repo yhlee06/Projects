@@ -1,0 +1,2 @@
+C001,Degree in Computer Science
+C002,Degree in Finance and Banking

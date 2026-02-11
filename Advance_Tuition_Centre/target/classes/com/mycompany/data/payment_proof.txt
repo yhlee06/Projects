@@ -1,0 +1,7 @@
+PP001;S001;Transferred June tuition fee RM200;payment_june1.jpg;01-06-2025;1500;pending
+PP002;S003;June tuition fee;payment_june.png;27-05-2025;1300;done
+PP003;S005;June and July tuition fee RM500;payment_july.jpg;15-06-2025;0900;done
+PP004;S008;May tuition fee;payment_may.jpg;01-05-2025;0700;pending
+PP005;S008;June tuition fee;payment_may.jpg;03-06-2025;1100;done
+PP006;S009;June tuition fee RM700;payment_June2.png;31-05-2025;0815;pending
+PP007;S010;Transferred May tuition fee RM250;payment_may1.png;30-04-2025;0041;pending

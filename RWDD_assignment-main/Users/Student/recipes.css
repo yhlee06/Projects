@@ -1,0 +1,431 @@
+/* =========================
+   RECIPES THEME (Zero Waste)
+   - Works for: recipes.php + recipeForm.php
+========================= */
+
+/* ===== Global base ===== */
+:root{
+  --sidebar-w: 260px;
+  --bg: #F3EAD7;
+  --text: #1E2D24;
+  --green: #165540;
+  --panel: #1F5C44;
+  --soft: #E6EFE9;
+}
+
+*{ box-sizing: border-box; }
+
+html, body{
+  margin: 0;
+  padding: 0;
+  background: var(--bg) !important;
+  color: var(--text);
+  font-family: "Segoe UI", Arial, sans-serif;
+  overflow-x: hidden; /* prevent side scroll */
+}
+
+/* ===== Main content area ===== */
+.page,
+.main{
+  margin-left: var(--sidebar-w);
+  width: calc(100% - var(--sidebar-w));
+  padding: clamp(18px, 3vw, 34px) clamp(16px, 4vw, 54px);
+  min-height: 100vh;
+}
+
+/* ===== Top header row ===== */
+.page-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 18px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+
+.page-top > div:first-child{
+  flex: 1 1 320px;
+  min-width: 240px;
+}
+
+.page-title{
+  margin: 0;
+  font-size: clamp(28px, 3vw, 36px);
+  font-weight: 900;
+  color: var(--green);
+  letter-spacing: 0.3px;
+}
+
+.page-sub{
+  margin: 6px 0 0;
+  font-size: 14px;
+  color: #4b6b5a;
+}
+
+/* ===== Top actions (search + add) ===== */
+.top-actions{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  flex: 1 1 420px;
+  justify-content: flex-end;
+}
+.search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+}
+
+.search-icon:hover {
+  opacity: 1;
+}
+
+/* ===== Panel container ===== */
+.panel{
+  background: var(--panel);
+  border-radius: 18px;
+  padding: 22px 26px;
+  box-shadow: 0 10px 22px rgba(22,85,64,0.18);
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* Center panel in main */
+.main .panel,
+.page .panel{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ===== Panel header ===== */
+.panel-head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.panel-title{
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+}
+
+/* ===== Filter buttons ===== */
+.filters{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.pill{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.14);
+  border: 1.2px solid rgba(255,255,255,0.22);
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 900;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+  line-height: 1;
+}
+
+.pill:hover{
+  background: rgba(255,255,255,0.20);
+  transform: translateY(-1px);
+}
+
+.pill.active{
+  background: var(--soft);
+  color: var(--green);
+  border: 1.5px solid #88B393;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.10);
+}
+
+/* ===== Filter colors when active ===== */
+.pill.all.active{
+  background: linear-gradient(135deg, #165540, #2ECC71);
+  color:#fff;
+  border-color: transparent;
+}
+
+.pill.pending.active{
+  background:#FFE7A3;
+  color:#6A4D00;
+  border-color:#E3B300;
+}
+
+.pill.approved.active{
+  background:#2ECC71;
+  color:#ffffff;
+  border-color:#2ECC71;
+}
+
+.pill.declined.active{
+  background:#ff4b4b;
+  color:#ffffff;
+  border-color:#ff4b4b;
+}
+
+
+
+/* ===== Status badge colors (Pending/Approved/Declined) ===== */
+.status-badge{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  font-weight:900;
+  font-size:12px;
+  padding:6px 10px;
+  border-radius:999px;
+}
+
+.status-pending{
+  background:#FFE7A3;
+  color:#6A4D00;
+}
+
+.status-approved{
+  background:#BFF2D0;
+  color:#0F4B2A;
+}
+
+.status-declined{
+  background:#FFC4C4;
+  color:#7A0B0B;
+}
+
+/* ===== List cards ===== */
+.list{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.row-card{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: var(--soft);
+  border-radius: 16px;
+  padding: 14px 16px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.10);
+  border: 1px solid rgba(22,85,64,0.18);
+  width: 100%;
+}
+
+.thumb{
+  width: 120px;
+  height: 78px;
+  border-radius: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: #ffffff;
+  border: 1px solid rgba(22,85,64,0.18);
+}
+
+.thumb img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.row-info{
+  flex: 1;
+  min-width: 220px;
+}
+
+.row-title{
+  font-size: 18px;
+  font-weight: 900;
+  color: var(--green);
+  margin: 0 0 4px;
+}
+
+.row-meta{
+  font-size: 12px;
+  color: var(--text);
+  opacity: 0.92;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.row-meta .dot{ opacity: 0.45; }
+
+.row-actions{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+/* ===== Buttons ===== */
+.btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 11px 16px;
+  border-radius: 14px;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  border: none;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.btn.primary{
+  background: linear-gradient(135deg, #165540, #2ECC71);
+  color: #ffffff;
+  box-shadow: 0 10px 18px rgba(22,85,64,0.20);
+}
+.btn.primary:hover{ filter: brightness(1.05); transform: translateY(-1px); }
+
+.btn.small{
+  background: #165540;
+  color: #ffffff;
+  border: 1.5px solid #165540;
+}
+.btn.small:hover{ background: #1e7a5a; transform: translateY(-1px); }
+
+.btn.danger{
+  background: #ff4b4b;
+  color: #ffffff;
+  border: 1.5px solid #ff4b4b;
+}
+.btn.danger:hover{ background: #ff2f2f; transform: translateY(-1px); }
+
+.btn.ghost{
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.22);
+  color: #ffffff;
+}
+.btn.ghost:hover{ background: rgba(255,255,255,0.18); }
+
+/* =========================
+   RECIPE FORM (Add/Edit)
+========================= */
+.recipe-form{ margin-top: 14px; }
+
+.form-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px 20px;
+  width: 100%;          /* FIXED */
+  max-width: 1200px;    /* safe */
+}
+
+.field{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field.full{ grid-column: 1 / -1; }
+
+.field label{
+  font-weight: 900;
+  font-size: 13px;
+  color: #ffffff;
+  opacity: 0.95;
+}
+
+.field input,
+.field textarea{
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 14px;
+  border: 1.5px solid rgba(255,255,255,0.25);
+  background: var(--soft);
+  color: var(--text);
+  outline: none;
+  font-size: 14px;
+}
+
+.field input[type="file"]{
+  padding: 10px;
+}
+
+.field textarea{
+  resize: vertical;
+  min-height: 120px;
+}
+
+.hint{ color: rgba(255,255,255,0.85); }
+
+.form-actions{
+  margin-top: 16px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 900px){
+  .page, .main{
+    margin-left: 0;
+    width: 100%;
+    padding: 18px 16px;
+  }
+
+  .top-actions{
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .panel{
+    padding: 18px 16px;
+  }
+
+  .row-card{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .row-actions{
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .form-grid{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px){
+  .page-title{
+    font-size: 26px;
+  }
+
+  .thumb{
+    width: 100%;
+    height: 160px;
+  }
+
+  .btn{
+    width: 100%;
+    justify-content: center;
+  }
+}

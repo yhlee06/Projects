@@ -1,0 +1,2 @@
+TT1,M1,Tuesday,11.00a.m.-1.00p.m.,B-08-03,T001,R1
+TT2,M2,Wednesday,8.30a.m.-10.30a.m.,E-06-04,T004,$

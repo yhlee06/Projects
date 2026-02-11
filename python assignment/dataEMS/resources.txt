@@ -1,0 +1,9 @@
+R1,Projector,Not Available,B-05-09,T002
+R2,Projector,Not Available,S-08-01,T004
+R3,Projector,Available,$,&
+R4,Microphone,Not Available,AUDITORIUM 4,T001
+R5,Microphone,Available,$,&
+R6,Microphone,Available,$,&
+R7,Camera,Available,$,&
+R8,Computer,Available,$,&
+R9,Computer,Available,$,&

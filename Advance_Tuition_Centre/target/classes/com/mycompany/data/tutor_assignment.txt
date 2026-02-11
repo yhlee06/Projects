@@ -1,0 +1,11 @@
+A001;T001;C001;1;Mathematics Form 1
+A002;T001;C002;4;Mathematics Form 4
+A003;T002;C003;5;English Form 5
+A004;T002;C004;3;Science Form 3
+A005;T003;C005;5;Physics Form 5
+A006;T003;C006;2;Science Form 2
+A007;T004;C007;5;Biology Form 5
+A008;T004;C008;4;Biology Form 4
+A009;T002;C009;1;History
+A010;T002;C010;1;Geography
+A010;T002;C011;2;Malay

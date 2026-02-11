@@ -1,0 +1,11 @@
+C001;T001;Mathematics Form 1;1;100;open;02-01-2025
+C002;T001;Mathematics Form 4;4;250;open;02-01-2025
+C003;T002;Chinese;5;200;open;02-01-2025
+C004;T003;Science Form 3;2;200;open;02-01-2025
+C005;T003;Physics Form 5;5;300;open;02-01-2025
+C006;T003;Science Form 2;2;150;open;02-01-2025
+C007;T004;Biology Form 5;5;300;open;02-01-2025
+C008;T004;Biology Form 4;4;250;open;02-01-2025
+C009;T002;History;1;200;open;19-07-2025
+C010;T002;Geography;1;100;close;19-07-2025
+C011;T002;Malay;2;50;close;21-07-2025

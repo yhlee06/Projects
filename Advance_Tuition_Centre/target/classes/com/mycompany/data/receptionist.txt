@@ -1,0 +1,4 @@
+R001;Ethan;+60124567890;ethan@example.com
+R002;Chloe;+60167890123;chloe@example.com
+R003;Joshua;+60172346789;joshua@example.com
+R004;Natalie;+60149876543;natalie@example.com

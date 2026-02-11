@@ -1,0 +1,4 @@
+M1,Programming in Python,T001,C001,"Week 1: Introduction to Python,Week 2-4: Basic Programming,Week 5-6: Control Structure,Week 7-8: Variable, Expression, Statement","Monday,12.00p.m.-2.00p.m.",https://drive.google.com/drive/folders/113kmOj5G1Rfy0LhBIHwgEuBd3CDKvb3-?usp=drive_link
+M2,Computer Architecture,T004,C001,@,&,$
+M3,Professional Communication,T002,C002,@,&,$
+M4,Advanced Accounting,T003,C002,@,&,$

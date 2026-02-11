@@ -1,0 +1,9 @@
+admin;4
+receptionist;4
+tutor;4
+student;10
+class;11
+enrol;15
+request;3
+assignment;10
+schedule;14

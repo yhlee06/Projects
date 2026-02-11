@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1c2f6618-4a68-480a-982d-12d505b223af" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2poxGjRFUYIyazfqEpB8mLQaLJ8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.admin fuctions.executor": "Run",
+    "Python.admin_functions.executor": "Run",
+    "Python.book.executor": "Run",
+    "Python.common_functions.executor": "Run",
+    "Python.exercise1.executor": "Run",
+    "Python.exercise2.executor": "Run",
+    "Python.hello.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.python2.executor": "Run",
+    "Python.signup_login.executor": "Run",
+    "Python.staff.executor": "Run",
+    "Python.staff_functions.executor": "Run",
+    "Python.student_functions.executor": "Run",
+    "Python.testing.executor": "Run",
+    "Python.week2_exercise.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/hpuse/OneDrive/Documents/pythonProject2",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Documents\pythonProject2\data" />
+      <recent name="C:\Users\HP\Documents\pythonProject2\dataEMS" />
+      <recent name="C:\Users\HP\Documents\pythonProject2" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-14705d77f0bb-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.25659.43" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c2f6618-4a68-480a-982d-12d505b223af" name="Changes" comment="" />
+      <created>1733446136170</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733446136170</updated>
+    </task>
+    <servers />
+  </component>
+</project>

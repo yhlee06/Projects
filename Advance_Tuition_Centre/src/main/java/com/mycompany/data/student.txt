@@ -1,0 +1,10 @@
+S001;Adam;091203105679;adam@example.com;+60123456789;123 Jalan Bunga Raya, KL;1
+S002;Sarah;081025082346;sarah@example.com;+60134567890;45 Taman Sentosa, Selangor;2
+S003;Jane;071112146788;jane@example.com;+60186789123;78 Jalan Merdeka, Johor;3
+S004;Jake;061003095431;jake@example.com;+60103456987;32 Taman Permai, Penang;4
+S005;Kate;051129124320;kate@example.com;+60157890456;56 Lorong Aman, Melaka;5
+S006;Ben;090219059877;ben@example.com;+60133456789;89 Jalan Harmoni, KL;1
+S007;Luna;080715028766;luna@example.com;+60169876542;14 Taman Indah, Negeri Sembilan;2
+S008;John;070429067653;john@example.com;+60172345722;67 Jalan Sutera, Kedah;3
+S009;Mary;060331116542;mary@example.com;+60148765343;23 Lorong Damai, Pahang;4
+S010;Alex;050917075432;alex@example.com;+60195678234;90 Taman Mewah, Sarawak;5

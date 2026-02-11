@@ -1,0 +1,15 @@
+R001;ethan;12345678;receptionist
+R002;chloe;654321;receptionist
+A001;adrian;123456;admin
+S001;adam;12345678;student
+S002;sarah;12345678;student
+S003;jane;12345678;student
+S004;jake;12345678;student
+S005;kate;12345678;student
+S006;ben;12345678;student
+S007;luna;12345678;student
+S008;john;12345678;student
+S009;mary;12345678;student
+S010;alex;12345678;student
+T001;siu;123;tutor
+T002;farah;1234;tutor

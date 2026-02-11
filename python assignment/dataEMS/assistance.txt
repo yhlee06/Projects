@@ -1,0 +1,2 @@
+Q1,TP001,"Hi, may I know where can I access the announcements?",You can access in the 'View Course Materials' menu.
+Q2,TP001,Can I transfer course please?,$

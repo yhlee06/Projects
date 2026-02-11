@@ -1,0 +1,4 @@
+T001;Aaron;121212100652;aaron@example.com;aaron@example.com;Bachelor's in Computer Science (APU)
+T002;Farah;9347130348;0112323241;farah@gmail.com;Master's in English Language (UKM)
+T003;Samuel;920711016789;samuel@example.com;+60112345678;Bachelor's in Science (Physics) (USM)
+T004;Aisha;950503095432;farah@example.com;+60118765321;Biology Education (Taylor's University)

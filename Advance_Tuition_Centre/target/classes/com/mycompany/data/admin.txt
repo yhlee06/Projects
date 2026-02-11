@@ -1,0 +1,4 @@
+A001;Adrian;+60123456789;adrian@example.com
+A002;Sofia;+60169876543;sofia@example.com
+A003;Daniel;+60172345678;daniel@example.com
+A004;Rachel;+60148765321;rachel@example.com

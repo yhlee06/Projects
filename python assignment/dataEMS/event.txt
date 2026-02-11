@@ -1,0 +1,2 @@
+EV1,Colour Run,2024-08-13,8.00a.m.-11.00a.m.,APU CAMPUS
+EV2,International Cultural Night,2024-10-23,4.00p.m.-11.00p.m.,ATRIUM
